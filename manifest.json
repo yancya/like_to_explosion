@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "like_to_explosion",
-  "description": "Like button to explosion button",
+  "description": "replace "いいね！" button to "爆発しろ！" button",
   "version": "0.0.1",
   "content_scripts": [
     {
