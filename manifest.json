@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "like_to_explosion",
+  "description": "Like button to explosion button",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["like_to_explosion.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
